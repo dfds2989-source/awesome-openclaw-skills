@@ -9,6 +9,7 @@ import CategoryPage from "./pages/CategoryPage";
 import SkillDetailPage from "./pages/SkillDetailPage";
 import AllSkillsPage from "./pages/AllSkillsPage";
 import AboutPage from "./pages/AboutPage";
+import ResourcesPage from "./pages/ResourcesPage";
 
 function Router() {
   return (
@@ -17,6 +18,7 @@ function Router() {
       <Route path={"/category/:id"} component={CategoryPage} />
       <Route path={"/skill/:id"} component={SkillDetailPage} />
       <Route path={"/skills"} component={AllSkillsPage} />
+      <Route path={"/resources"} component={ResourcesPage} />
       <Route path={"/about"} component={AboutPage} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
