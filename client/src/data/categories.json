@@ -1,0 +1,256 @@
+{
+  "categories": [
+    {
+      "id": "web-frontend",
+      "name": "Web & 前端开发",
+      "description": "React、Next.js、前端工具链、UI设计、响应式设计、邮件模板",
+      "icon": "code",
+      "color": "#3B82F6",
+      "skillCount": 46,
+      "topSkills": ["artifacts-builder", "frontend-design", "nextjs-expert", "react-essentials", "tailwind-master"]
+    },
+    {
+      "id": "coding-tools",
+      "name": "编程工具 & IDEs",
+      "description": "代码生成、AI编程助手、调试工具、IDE集成、测试框架",
+      "icon": "terminal",
+      "color": "#8B5CF6",
+      "skillCount": 55,
+      "topSkills": ["code-mentor", "ai-pair-programmer", "code-review-ai", "testing-mastery", "jest-guide"]
+    },
+    {
+      "id": "git-github",
+      "name": "Git & GitHub",
+      "description": "版本控制、PR管理、协作工作流、GitHub Actions、分支管理",
+      "icon": "git-branch",
+      "color": "#EC4899",
+      "skillCount": 34,
+      "topSkills": ["git-essentials", "github-pr", "git-workflow", "github-actions", "github-api"]
+    },
+    {
+      "id": "moltbook",
+      "name": "Moltbook",
+      "description": "AI代理社交网络、协作平台、社区工具",
+      "icon": "users",
+      "color": "#F59E0B",
+      "skillCount": 27,
+      "topSkills": []
+    },
+    {
+      "id": "devops-cloud",
+      "name": "DevOps & Cloud",
+      "description": "AWS、Kubernetes、Docker、容器编排、云基础设施、CI/CD",
+      "icon": "cloud",
+      "color": "#10B981",
+      "skillCount": 144,
+      "topSkills": ["docker-essentials", "kubernetes", "ci-cd-pipeline", "monitoring-dev"]
+    },
+    {
+      "id": "browser-automation",
+      "name": "浏览器 & 自动化",
+      "description": "网页抓取、表单填充、RPA、浏览器扩展、自动化脚本",
+      "icon": "globe",
+      "color": "#06B6D4",
+      "skillCount": 69,
+      "topSkills": []
+    },
+    {
+      "id": "image-video",
+      "name": "图片 & 视频生成",
+      "description": "AI绘图、视频剪辑、ComfyUI、多媒体处理、动画生成",
+      "icon": "image",
+      "color": "#EF4444",
+      "skillCount": 41,
+      "topSkills": ["comfyui", "ffmpeg-video-editor", "remotion-video-toolkit"]
+    },
+    {
+      "id": "apple-services",
+      "name": "Apple应用 & 服务",
+      "description": "macOS生态、iCloud、HomeKit、iOS开发、Apple生态集成",
+      "icon": "apple",
+      "color": "#6B7280",
+      "skillCount": 50,
+      "topSkills": []
+    },
+    {
+      "id": "ai-llms",
+      "name": "AI & LLMs",
+      "description": "模型交互、提示词工程、本地模型、AI工作流、LLM应用",
+      "icon": "brain",
+      "color": "#A855F7",
+      "skillCount": 287,
+      "topSkills": ["claude-code-skill", "claude-connect", "agenticflow-skill"]
+    },
+    {
+      "id": "search-research",
+      "name": "搜索 & 研究",
+      "description": "网络搜索、学术研究、知识管理、信息聚合、数据挖掘",
+      "icon": "search",
+      "color": "#0EA5E9",
+      "skillCount": 253,
+      "topSkills": []
+    },
+    {
+      "id": "clawdbot-tools",
+      "name": "Clawdbot工具",
+      "description": "OpenClaw核心工具、监控、安全、系统管理、工作流自动化",
+      "icon": "settings",
+      "color": "#6366F1",
+      "skillCount": 100,
+      "topSkills": []
+    },
+    {
+      "id": "communication",
+      "name": "通信工具",
+      "description": "邮件、消息、社交媒体、协作通讯、团队沟通",
+      "icon": "mail",
+      "color": "#F97316",
+      "skillCount": 58,
+      "topSkills": ["react-email-skills"]
+    },
+    {
+      "id": "data-analytics",
+      "name": "数据 & 分析",
+      "description": "数据处理、可视化、BI工具、数据科学、统计分析",
+      "icon": "bar-chart-3",
+      "color": "#14B8A6",
+      "skillCount": 45,
+      "topSkills": []
+    },
+    {
+      "id": "security-privacy",
+      "name": "安全 & 密码",
+      "description": "安全扫描、密码管理、加密、隐私保护、漏洞检测",
+      "icon": "lock",
+      "color": "#DC2626",
+      "skillCount": 35,
+      "topSkills": ["password-manager", "2fa-authenticator", "encryption-tool", "vuln-scanner"]
+    },
+    {
+      "id": "health-fitness",
+      "name": "健康 & 健身",
+      "description": "健康数据跟踪、运动计划、健康监测、健身工具",
+      "icon": "heart",
+      "color": "#EC4899",
+      "skillCount": 35,
+      "topSkills": []
+    },
+    {
+      "id": "smart-home",
+      "name": "智能家居 & IoT",
+      "description": "米家/HomeKit设备控制、自动化场景、IoT集成、智能设备",
+      "icon": "home",
+      "color": "#8B5CF6",
+      "skillCount": 50,
+      "topSkills": []
+    },
+    {
+      "id": "finance-investment",
+      "name": "金融 & 投资",
+      "description": "股票分析、财务报表、加密货币、投资工具、财务规划",
+      "icon": "trending-up",
+      "color": "#059669",
+      "skillCount": 48,
+      "topSkills": []
+    },
+    {
+      "id": "legal-compliance",
+      "name": "法律 & 合规",
+      "description": "合同审查、法律研究、GDPR合规、法律工具",
+      "icon": "scale",
+      "color": "#7C3AED",
+      "skillCount": 28,
+      "topSkills": []
+    },
+    {
+      "id": "education-learning",
+      "name": "教育 & 学习",
+      "description": "在线课程、学术研究、语言学习、教育工具",
+      "icon": "book-open",
+      "color": "#0891B2",
+      "skillCount": 42,
+      "topSkills": []
+    },
+    {
+      "id": "writing-content",
+      "name": "写作 & 内容创作",
+      "description": "博客、文案、脚本生成、内容管理、写作工具",
+      "icon": "pen-tool",
+      "color": "#F43F5E",
+      "skillCount": 38,
+      "topSkills": []
+    },
+    {
+      "id": "design-creative",
+      "name": "设计 & 创意",
+      "description": "UI/UX设计、品牌设计、创意工具、设计系统",
+      "icon": "palette",
+      "color": "#D946EF",
+      "skillCount": 44,
+      "topSkills": ["figma", "superdesign", "material-design", "apple-hig"]
+    },
+    {
+      "id": "project-management",
+      "name": "项目管理",
+      "description": "Jira、Trello、任务管理、团队协作、敏捷工具",
+      "icon": "list-checks",
+      "color": "#16A34A",
+      "skillCount": 36,
+      "topSkills": []
+    },
+    {
+      "id": "crm-customer",
+      "name": "CRM & 客户管理",
+      "description": "Salesforce、HubSpot、客户跟进、客户关系管理",
+      "icon": "users-2",
+      "color": "#0D9488",
+      "skillCount": 32,
+      "topSkills": []
+    },
+    {
+      "id": "marketing",
+      "name": "市场营销",
+      "description": "SEO、社交媒体营销、广告投放、营销自动化",
+      "icon": "megaphone",
+      "color": "#EA580C",
+      "skillCount": 41,
+      "topSkills": ["seo-frontend"]
+    },
+    {
+      "id": "ecommerce",
+      "name": "电商",
+      "description": "Shopify、库存管理、订单处理、电商工具",
+      "icon": "shopping-cart",
+      "color": "#7C2D12",
+      "skillCount": 35,
+      "topSkills": []
+    },
+    {
+      "id": "travel-maps",
+      "name": "旅行 & 地图",
+      "description": "行程规划、地图搜索、酒店预订、旅行工具",
+      "icon": "map",
+      "color": "#0369A1",
+      "skillCount": 28,
+      "topSkills": []
+    },
+    {
+      "id": "entertainment-games",
+      "name": "娱乐 & 游戏",
+      "description": "游戏脚本、娱乐推荐、赛事数据、游戏工具",
+      "icon": "gamepad-2",
+      "color": "#6D28D9",
+      "skillCount": 32,
+      "topSkills": []
+    },
+    {
+      "id": "misc-tools",
+      "name": "其他工具",
+      "description": "系统工具、实用工具、小众工具、杂项应用",
+      "icon": "wrench",
+      "color": "#64748B",
+      "skillCount": 55,
+      "topSkills": ["gog", "summarize", "nano-pdf", "notion", "youtube-full"]
+    }
+  ]
+}
