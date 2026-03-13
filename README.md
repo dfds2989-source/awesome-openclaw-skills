@@ -5,7 +5,9 @@
 ![Skills](https://img.shields.io/badge/skills-1715%2B-brightgreen)
 ![Categories](https://img.shields.io/badge/categories-28-orange)
 
-**OpenClaw 技能大全** 是一个开源的技能库展示网站，展示了 1,715+ 个精选技能，覆盖 28 个核心领域。这是 [Awesome OpenClaw Skills](https://github.com/VoltAgent/awesome-openclaw-skills) 项目的官方网站。
+**OpenClaw 技能大全** 是一个开源的技能库展示网站，展示了 1,715+ 个精选技能，覆盖 28 个核心领域。
+
+🌐 **[访问在线网站](https://dfds2989-source.github.io/awesome-openclaw-skills/)** | 📥 **[下载完整资源](https://drive.uc.cn/s/f02cacbc93714)** | 📚 **[查看文档](GITHUB_PROMOTION.md)**
 
 ## 🌟 特性
 
@@ -15,15 +17,29 @@
 - **SEO 优化** - 完整的元标签、结构化数据和 sitemap
 - **快速搜索** - 实时搜索和多条件筛选功能
 - **社区驱动** - 100% 开源，欢迎社区贡献
+- **浮动下载按钮** - 随处可见的资源下载入口
+- **完整文档** - 每个技能都有详细的使用说明和安装命令
 
 ## 🚀 快速开始
+
+### 在线浏览
+
+直接访问网站浏览所有技能：
+
+👉 **[https://dfds2989-source.github.io/awesome-openclaw-skills/](https://dfds2989-source.github.io/awesome-openclaw-skills/)**
+
+### 下载完整资源
+
+所有技能的 DOCX 文档已上传到 UC 网盘，包含详细的使用说明、安装命令和代码示例：
+
+👉 **[下载资源库](https://drive.uc.cn/s/f02cacbc93714)**
 
 ### 本地开发
 
 ```bash
 # 克隆仓库
-git clone https://github.com/VoltAgent/openclaw-skills.git
-cd openclaw-skills
+git clone https://github.com/dfds2989-source/awesome-openclaw-skills.git
+cd awesome-openclaw-skills
 
 # 安装依赖
 pnpm install
@@ -31,7 +47,7 @@ pnpm install
 # 启动开发服务器
 pnpm run dev
 
-# 访问 http://localhost:3000
+# 访问 http://localhost:3000/awesome-openclaw-skills/
 ```
 
 ### 构建生产版本
