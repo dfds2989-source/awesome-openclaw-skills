@@ -1,7 +1,7 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
-import { Route, Switch } from "wouter";
+import { Route, Switch, Router } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { FloatingDownloadButton } from "./components/FloatingDownloadButton";
@@ -13,7 +13,7 @@ import AboutPage from "./pages/AboutPage";
 import ResourcesPage from "./pages/ResourcesPage";
 import QuickDownloadPage from "./pages/QuickDownloadPage";
 
-function Router() {
+function AppRouter() {
   return (
     <Switch>
       <Route path={"/"} component={Home} />
@@ -36,6 +36,11 @@ function Router() {
 // - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
 
 function App() {
+  // GitHub Pages 子目录路径
+  const basePath = import.meta.env.MODE === 'production' 
+    ? '/awesome-openclaw-skills' 
+    : '';
+  
   return (
     <ErrorBoundary>
       <ThemeProvider
@@ -43,9 +48,11 @@ function App() {
         // switchable
       >
         <TooltipProvider>
-          <Toaster />
-          <Router />
-          <FloatingDownloadButton />
+          <Router base={basePath}>
+            <Toaster />
+            <AppRouter />
+            <FloatingDownloadButton />
+          </Router>
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
