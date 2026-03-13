@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { Search, ArrowRight, Star, Code2, Zap } from "lucide-react";
+import { Search, ArrowRight, Star, Code2, Zap, Download, Cloud } from "lucide-react";
 import { useLocation } from "wouter";
 import { useState } from "react";
 import { SEOMeta } from "@/components/SEOMeta";
@@ -214,6 +214,34 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Download CTA Section */}
+      <section className="container py-16 bg-gradient-to-r from-emerald-600 to-teal-600 rounded-2xl text-white text-center my-16">
+        <div className="flex items-center justify-center gap-3 mb-4">
+          <Cloud className="w-6 h-6" />
+          <span className="text-sm font-bold uppercase tracking-wider">UC 网盘资源库</span>
+        </div>
+        <h3 className="text-4xl font-bold mb-4">下载完整资源库</h3>
+        <p className="text-lg mb-8 opacity-90 max-w-2xl mx-auto">
+          获取所有 1,715+ 个技能的完整 DOCX 文档，包含详细的使用说明、安装命令和代码示例
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="https://drive.uc.cn/s/f02cacbc93714" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" variant="secondary" className="gap-2">
+              <Download className="w-5 h-5" />
+              立即下载所有资源
+            </Button>
+          </a>
+          <Button 
+            size="lg" 
+            variant="outline" 
+            className="gap-2 bg-white/10 border-white/30 text-white hover:bg-white/20"
+            onClick={() => setLocation("/resources")}
+          >
+            查看资源详情
+          </Button>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="container py-20 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl text-white text-center my-16">
         <h3 className="text-3xl font-bold mb-4">准备好开始了吗？</h3>
@@ -247,13 +275,15 @@ export default function Home() {
               <ul className="space-y-2 text-sm">
                 <li><a href="/" className="hover:text-white">首页</a></li>
                 <li><a href="/skills" className="hover:text-white">所有技能</a></li>
+                <li><a href="/resources" className="hover:text-white">资源下载</a></li>
                 <li><a href="/about" className="hover:text-white">关于</a></li>
               </ul>
             </div>
             <div>
               <h4 className="font-bold text-white mb-4">资源</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="https://github.com/VoltAgent/awesome-openclaw-skills" className="hover:text-white">GitHub</a></li>
+                <li><a href="https://github.com/dfds2989-source/awesome-openclaw-skills" className="hover:text-white">GitHub</a></li>
+                <li><a href="https://drive.uc.cn/s/f02cacbc93714" target="_blank" rel="noopener noreferrer" className="hover:text-white">UC 网盘</a></li>
                 <li><a href="https://docs.openclaw.ai/" className="hover:text-white">文档</a></li>
                 <li><a href="https://clawhub.com/skills" className="hover:text-white">ClawHub</a></li>
               </ul>
